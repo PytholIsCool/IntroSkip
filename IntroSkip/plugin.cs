@@ -4,7 +4,7 @@ using YanAPI.Logging;
 using UnityEngine.SceneManagement;
 
 [BepInPlugin("com.pythol.introskip", "IntroSkip", "1.0.0")]
-[BepInDependency("com.pythol.YanAPI", BepInDependency.DependencyFlags.HardDependency)]
+[BepInDependency("com.Pythol.YanAPI", BepInDependency.DependencyFlags.HardDependency)]
 public class IntroSkip : BaseUnityPlugin {
     private void Awake() {
         CLogs.LogInfo("IntroSkip loaded.");
